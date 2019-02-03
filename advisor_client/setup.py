@@ -20,7 +20,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="advisor-areeh-fork",
-    version="0.1.6",
+    version="0.1.6.1",
     author="areeh",
     author_email="arehaartveit@gmail.com",
     url="https://github.com/areeh/advisor",
