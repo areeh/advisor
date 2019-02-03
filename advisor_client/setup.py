@@ -16,14 +16,6 @@
 # twine upload dist/advisor-x.x.x.tar.gz -r test
 # pip install --index-url https://test.pypi.org/simple/ --upgrade advisor
 
-
-try:
-  from setuptools import setup
-  setup()
-except ImportError:
-  from distutils.core import setup
-
-# TODO: Remove the code of try-except
 from setuptools import setup, find_packages
 
 setup(
@@ -36,7 +28,7 @@ setup(
                       "argcomplete>=1.4.1", "prettytable", "coloredlogs", "pyyaml"],
     description=
     "Advisor is the hyper parameters tuning system for black box optimization",
-    #packages=["advisor_client"],
+    # packages=["advisor_client"],
     packages=find_packages(),
     zip_safe=False,
     entry_points={
