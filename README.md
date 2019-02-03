@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/areeh/advisor.svg?branch=master)](https://travis-ci.org/areeh/advisor)
+[![codecov](https://codecov.io/gh/areeh/advisor/branch/master/graph/badge.svg)](https://codecov.io/gh/areeh/advisor)
 # areeh/advisor
 Fork of advisor to support py35 and use areeh/chocolate fork of chocolate (supports py35 and PostgreSQL).
 
