@@ -79,7 +79,7 @@ class AdvisorClient(object):
 
   def get_suggestions(self, study_id, trials_number=1):
     url = "{}/suggestion/v1/studies/{}/suggestions".format(
-        self.endpoint, study_name)
+        self.endpoint, study_id)
     request_data = {"trials_number": trials_number}
     response = requests.post(url, json=request_data)
     trials = []
