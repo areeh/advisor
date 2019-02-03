@@ -7,5 +7,5 @@ requests
 social-auth-app-django
 ghalton
 hyperopt
-git+https://github.com/AIworx-Labs/chocolate@master
+git+https://github.com/areeh/chocolate.git@master#egg=chocolate
 scikit-optimize
