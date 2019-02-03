@@ -19,11 +19,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="advisor-areeh-fork",
+    name="advisor",
     version="0.1.6",
-    author="areeh",
-    author_email="arehaartveit@gmail.com",
-    url="https://github.com/areeh/advisor",
+    author="tobe",
+    author_email="tobeg3oogle@gmail.com",
+    url="https://github.com/tobegit3hub/advisor",
     install_requires=["requests>=2.6.0", "pyOpenSSL>=16.1.0",
                       "argcomplete>=1.4.1", "prettytable", "coloredlogs", "pyyaml"],
     description=
