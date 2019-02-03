@@ -13,5 +13,4 @@ install:
   - pip install pytest
 # command to run tests
 script:
-  - bash advisor_client/advisor_client/run_unittest.sh
   - bash advisor_server/run_unittest.sh
