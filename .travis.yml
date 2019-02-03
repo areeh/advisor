@@ -4,7 +4,8 @@ python:
   - "3.5"
 # command to install dependencies
 install:
-  # Ensure using latest pip, Travis provides wheels for most packages
+  - export PYTHONPATH=$PYTHONPATH:$(pwd)/advisor_client
+  - export PYTHONPATH=$PYTHONPATH:$(pwd)/advisor_server
   - pip install -U pip
   - pip install ./advisor_client
   - pip install -r requirements.txt
